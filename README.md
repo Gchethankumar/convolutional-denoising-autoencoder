@@ -117,15 +117,18 @@ plt.show()
 
 ### Parameters for the Model
 
-![Screenshot 2024-05-18 120742](https://github.com/Gchethankumar/convolutional-denoising-autoencoder/assets/118348224/10b9d523-b526-4805-9d54-05a1b29f6053)
+![Screenshot 2024-05-18 120742](https://github.com/Gchethankumar/convolutional-denoising-autoencoder/assets/118348224/d8b67fa4-7adf-4528-888a-2588c94eb69b)
+
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-![Screenshot 2024-05-18 125037](https://github.com/Gchethankumar/convolutional-denoising-autoencoder/assets/118348224/edcee70e-6f13-4ace-ab94-7c8d842540e0)
+![Screenshot 2024-05-18 125037](https://github.com/Gchethankumar/convolutional-denoising-autoencoder/assets/118348224/d3616001-aedc-4a4b-9218-6177df7adf5b)
+
 
 ### Original vs Noisy Vs Reconstructed Image
 
-![Screenshot 2024-05-18 125047](https://github.com/Gchethankumar/convolutional-denoising-autoencoder/assets/118348224/39d03500-0a9e-4bb1-8090-297e95994284)
+![Screenshot 2024-05-18 125047](https://github.com/Gchethankumar/convolutional-denoising-autoencoder/assets/118348224/2b3c92e7-0cd4-477c-98b7-73cfcc3d8859)
+
 
 ## RESULT
 Thus we have successfully developed a convolutional autoencoder for image denoising application.
