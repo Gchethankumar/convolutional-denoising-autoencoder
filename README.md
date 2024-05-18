@@ -65,7 +65,9 @@ x=layers.Conv2D(32,(3,3),activation='relu',padding='same')(input_img)
 x=layers.MaxPooling2D((2, 2), padding='same')(x)
 x=layers.Conv2D(32,(3,3),activation='relu',padding='same')(x)
 encoded = layers.MaxPooling2D((2, 2), padding='same')(x)
+```
 
+```python
 x=layers.Conv2D(32,(3,3),activation='relu',padding='same')(encoded)
 x=layers.UpSampling2D((2,2))(x)
 x=layers.Conv2D(32,(3,3),activation='relu',padding='same')(x)
