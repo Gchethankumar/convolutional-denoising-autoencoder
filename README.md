@@ -28,6 +28,7 @@ The dataset which is used is mnist dataset.
 Name: G Chethan Kumar
 Reg. NO: 212222240022
 ```
+
 ```python
 from tensorflow import keras
 from tensorflow.keras import layers
@@ -49,6 +50,9 @@ x_train_noisy = np.clip(x_train_noisy, 0., 1.)
 x_test_noisy = np.clip(x_test_noisy, 0., 1.)
 n = 7
 plt.figure(figsize=(20, 3))
+```
+
+```python
 for i in range(1, n + 1):
     ax = plt.subplot(1, n, i)
     plt.imshow(x_test_noisy[i].reshape(28, 28))
@@ -75,6 +79,9 @@ autoencoder.fit(x_train_noisy, x_train_scaled,
                 batch_size=128,
                 shuffle=True,
                 validation_data=(x_test_noisy, x_test_scaled))
+```
+
+```python
 import pandas as pd
 metrics = pd.DataFrame(autoencoder.history.history)
 metrics.head()
@@ -105,6 +112,7 @@ for i in range(1, n + 1):
     ax.get_yaxis().set_visible(False)
 plt.show()
 ```
+
 ## OUTPUT
 
 ### Parameters for the Model
